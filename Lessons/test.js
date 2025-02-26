@@ -18,5 +18,5 @@ console.log(typeof Bint, Bint);
 
 
 let obj = { name:  "test"} //обект
-let obр = ['Test'] // массив
+let obр = ['Test'] // массив 
 
