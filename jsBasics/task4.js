@@ -39,7 +39,7 @@ let height = 40;
 
 function volumeCyl(){
 
-  return p * radius2 ** 2 * height
+  return p * Math.pow(`${radius2}`, 2) * height
 }
 
 console.log(volumeCyl().toFixed(2))
