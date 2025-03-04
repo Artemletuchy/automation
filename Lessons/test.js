@@ -68,3 +68,108 @@
 // console.log('Hello' === 'Hello' ? 1 : 0)
 
 // console.log("age" === `${radius}` ? "Yes u best": "No it is not true") // он сравнивает и выдает да или нет неважно что там будет написано 
+
+// let firstName = null;
+// let lastName = 'Guru';
+
+// function makeFullName(firstName, lastName){
+  
+
+//   if(firstName === null || firstName ===  undefined){
+
+//      firstName = "Unknown"
+
+//   }
+//   if(lastName === null || lastName ===  undefined){
+
+//     lastName = "Unknown"
+
+//  }
+//  return firstName + " " + lastName
+// }
+// console.log(makeFullName(firstName, lastName))
+
+// let firstName = null;
+
+
+// function makeFullName(firstName){
+  
+
+//   return firstName = (firstName === null || firstName ===  undefined) ? "Un" : firstName
+
+ 
+// }
+// console.log(makeFullName(firstName))
+
+// let a = 9;
+
+// if (a === 9 ){
+//   console.log("Molodec Golova")
+// }
+// else if (a === 10){
+//   console.log("Molodec Golovaaaaaaaaa")
+// }
+// else {
+//  console.log("Nu ne povezlo")
+// }
+
+
+// let fufan = 1;
+
+
+// if (fufan === 1 || fufan === 2 || fufan === 3){
+//   console.log("bolt")
+// }
+// else if (fufan ===4 && fufan === 5){
+//   console.log("bolt 2")
+// }
+// else if (fufan === 1){
+//   console.log("bolt 3")
+// }
+// else {
+//   console.log("BOLTARA")
+// }
+
+
+// let f = undefined // если переменная или данные равны null or undefind тогда ?? сделают по дефолту tort
+
+// let h = f ?? "tort"
+
+// console.log(h)
+
+
+// let Userid = 30;
+
+// let type;
+ 
+
+// switch (Userid){
+
+//   case  2:{
+//     console.log(type = "net")
+//   }
+//   break;
+
+//   case 30:{
+//     console.log(type = "no")
+//   }
+//   break
+
+//   case  3:{
+//     console.log(type = "true")
+//   }
+  
+//     break;
+
+//   default:
+// 		type = 'Unknown';
+//     console.log(type)
+  
+// }
+
+
+
+
+
+
+
