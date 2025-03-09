@@ -14,4 +14,4 @@ while ( i < 11) {
   console.log(num + " * " + i + " = " + num * i);i++;
 }
 
-
+console.log(typeof null)

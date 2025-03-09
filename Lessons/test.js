@@ -167,9 +167,85 @@
   
 // }
 
+//___________________________________________________
 
 
 
+// function divide (a ,b){
+//   if (b === 0 ){
+//     throw new Error ('Cannot divide by zero')
+//   }
+//   return a / b
+// }
+
+// try {
+//   console.log(divide(10 ,0))
+// }
+// catch (error) {
+//   console.log(error)
+// }
+// finally {
+//   console.log('This will always run') // этот блок всегда выполняется и нужен для того что бы даже если будет ошибка то выполнить действие которое нам важно выполнить - например закрытие коннекшена с базой данных
+// }
+
+
+// _____________________________________________
+
+
+// function summALL(){ //  - массивовидный обьект 
+
+//   let sum = 0;
+//   for (let i = 0; i < arguments.length; i++){
+//      sum += arguments[i]
+//   }
+//   return sum
+// }
+
+// console.log(summALL())
+// console.log(summALL(1,2,3,4,5))
 
 
 
+// function summALL(...args){ // ...args - массив
+
+//   console.log(args)
+//   let sum = 0;
+//   for (let i = 0; i < args.length; i++){
+//      sum += args[i]
+//   }
+//   return sum
+// }
+
+// console.log(summALL())
+// console.log(summALL(1,2,3,4,5))
+
+// __________________________________________________
+
+// function summALL(a,b,...args){ 
+
+//   console.log(a);
+//   console.log(b);
+//   console.log(args);
+//   let sum = 0;
+//   for (let i = 0; i < args.length; i++){
+//      sum += args[i];
+//   }
+//   return sum;
+// }
+
+
+// console.log(summALL(1,2,3,4,5))
+
+
+
+//  const suuMM = (a , b) => (a/b) // стрелочная функция
+
+//  console.log(suuMM(4,2))
+
+
+
+//  const summ2 = function (a,b){ // другой вид создания функции
+//   return a/b
+//  }
+ 
+// console.log(summ2(6,2))
