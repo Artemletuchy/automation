@@ -194,7 +194,7 @@
 
 // function summALL(){ //  - массивовидный обьект 
 
-//   let sum = 0;
+//   let sum = 5;
 //   for (let i = 0; i < arguments.length; i++){
 //      sum += arguments[i]
 //   }
@@ -234,7 +234,7 @@
 // }
 
 
-// console.log(summALL(1,2,3,4,5))
+// console.log(summALL("a","b",3,4,5," hui",true))
 
 
 
@@ -249,3 +249,201 @@
 //  }
  
 // console.log(summ2(6,2))
+
+// function reverseString(str) {
+//   return str = str.split("").reverse().join("");
+//   }
+// console.log(reverseString('Artem'))  
+
+// function reverseStr(str) {
+//   let newString = "";
+//   for (let i = str.length - 1; i >= 0; i--) {
+//     newString += str[i];
+//   }
+//   console.log(newString);
+// }
+// reverseStr('hello');
+
+// function Add(a,b){
+// return a+b
+// }
+// console.log(Add(7,8))
+
+// function isEven(n){
+//   if (n%2=== 0){
+//     return true
+//   }
+//   return false
+// }
+// console.log(isEven(6))
+// console.log(isEven(7))
+
+
+// function checkAge(age){
+//   return age >= 18 ? "Доступ разрешен":'Доступ запрещен'
+// }
+// console.log(checkAge(16))
+
+// function getGrade(score){
+//   if (score < 60) return "F"
+//   if (score >= 60 && score <= 70) return "D"
+//   if (score >= 71 && score <= 80) return "C"
+//   if (score >= 81 && score <= 90) return "B"
+//   if (score >= 90 && score <= 100) return "A"
+
+//   else return "Genii"
+// }
+
+// console.log(getGrade(101))
+
+// function hui(a,b){
+//   return a*b
+// }
+// console.log(hui(4,10000))
+
+
+// let hui2 = function(a,b){
+//   return a/b
+// }
+// console.log(hui2(4,10000))
+
+
+// let hui3 = (a,b) => a+b
+
+// console.log(hui3(4,10000))
+
+
+// function checkOrder(available, ordered){
+//   switch(true){
+//       case available < ordered:
+//          return `Your order is too large, we don’t have enough goods. We have only ${available}`
+          
+      
+//       case ordered  === 0:
+//           return  'Your order is empty'
+        
+         
+      
+//       default: return 'Your order is accepted'
+
+//   }
+  
+// }
+
+// console.log(checkOrder(1,10))
+
+// const originalFunc = (num) => { return num + 2 };
+
+// const Tapok = originalFunc
+
+
+// console.log(Tapok.name)
+// console.log(Tapok.toString())
+
+
+// const isOdd = (n) => {
+//   return n % 2 !== 0;
+// }
+
+// let printMsg = (callback, num) => {
+//   const isNumOdd = callback(num);
+//   console.log(`The number ${num} is an odd number: ${isNumOdd}.`)
+// }
+
+// // Pass in isEven as the callback function
+// printMsg(isOdd, 4); 
+
+// function Hui(first_name, sirpodzapunii, funtic, callback){ // Call back
+//   console.log(`Hello ${first_name}`)
+//   sirpodzapunii()
+//   funtic()
+//   callback()
+  
+// }
+
+// function pizda(){
+//   console.log('Ji')
+// }
+
+// function pizda2(){
+//   console.log('Jiir')
+// }
+
+// function pizda3(){
+//   console.log('Jiirnaya')
+// }
+
+
+// Hui("Mordjo", pizda,pizda2,pizda3 )
+
+// const isOdd = (n) => {
+//   return n % 2 !== 0;
+// }
+
+
+
+// let printMsg = (callback, num) => {
+//   const isNumOdd = callback(num);
+//   console.log(`The number ${num} is an odd number: ${isNumOdd}.`)
+// }
+
+
+
+// // Pass in isEven as the callback function
+// printMsg(isOdd, 4); 
+
+// const numbers = [1, 2, 3, 4, 5];
+
+// const squaredNumbers = numbers.map(function(ggg) {
+//   return ggg * ggg
+// });
+
+// console.log(squaredNumbers)
+// const evenNumbers = numbers.filter(num => num % 2 === 0);
+
+// numbers.forEach(function(num) {
+//   console.log(num);
+// });
+
+// const names = ["Анна", "Борис", "Виктория"];
+
+// function processArray(arr, callback) {
+//   const result = [];
+//   for (let i = 0; i < arr.length; i++) {
+//     result.push(callback(arr[i])); // Применяем callback к каждому элементу
+//   }
+//   return result; // Возвращаем новый массив
+// }
+
+
+// // Функция-коллбэк для добавления "!" к каждому имени
+// function addExclamation(name) {
+//   return name + "!";
+// }
+
+
+
+
+// // Передаём массив и коллбэк-функцию
+// const excitedNames = processArray(names, addExclamation);
+
+// console.log(excitedNames); // ["Анна!", "Борис!", "Виктория!"]
+
+// function handleNum(num, callback, callback2){
+
+//    return num %2 === 0 ? callback():callback2()
+   
+// }
+
+
+// function handleEven(){
+// console.log("number is even")
+// }
+
+
+// function handleOdd(){
+//   console.log("number is odd")
+// }
+
+// handleNum(4,handleEven,handleOdd)
+
