@@ -1,4 +1,4 @@
-let averageGrade = 100;
+let averageGrade = 55;
 
 switch(true){
 
