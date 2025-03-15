@@ -447,3 +447,28 @@
 
 // handleNum(4,handleEven,handleOdd)
 
+// function Test(num){
+//  return num + 6
+ 
+// }
+
+// let Bolt = Test
+
+// console.log(Bolt.name)
+// console.log(Bolt.toString())
+
+// function Y(callback){
+
+  
+//      setImmediate(()=>{ // асинхронное выполнение кода 
+//      callback("Dato")
+//   })
+
+// }
+
+// function J(name){
+//   console.log('Hello ' + name)
+// }
+
+// Y(J)
+
