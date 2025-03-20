@@ -472,3 +472,321 @@
 
 // Y(J)
 
+// const Numbers = ["A","B","C","D"]
+
+// const tumba = Numbers.map(function Res(num){
+//  return num + " Yes "
+// })
+
+// console.log(tumba)
+
+// const Numberss = [1,2,3,4]
+
+// const tumbaa = Numberss.map(function Res(num){
+//  return num + num
+// })
+
+// console.log(tumbaa)
+
+// ⏩ Если используешь {}, всегда пиши return! 🚀 тут он выполняется автоматически const tumba = Numbers.map(num => num * num);
+
+
+//  const Persone = {
+//   first_name : 'Alex',
+//   last_name : 'Bonashko',
+//   age : 30,
+//   F : function(){
+//     return console.log(this.last_name)
+//    }
+
+//  }
+
+//  Persone.F()
+
+//  const Persone1 = {
+//   first_name : 'Art',
+//   last_name : 'Let',
+//   age : 31,
+//  }
+
+//  const Persone2 = {
+//   first_name : 'Arin',
+//   last_name : 'Kak',
+//   age : 20,
+//  }
+
+//  function whatData(){
+//   console.log(this.first_name)
+//   console.log(this.last_name)
+//   console.log(this.age)
+//   return
+  
+
+//  }
+
+// whatData.call(Persone1)  //call() вызывает функцию и подставляет this из переданного объекта. 
+
+// whatData.apply(Persone2) //🔹 .apply() работает так же, но принимает массив аргументов.
+
+// const Person = {
+//   name : "Artem",
+//   last_name : "Letuchi",
+//   age : 31,
+//   Poneslas : function(){
+//     console.log(this.age)
+//   }
+// }
+// Person.Poneslas()
+
+// function Person(name){
+// this.name = name;
+// this.greet = function(){
+//   console.log(`hmmmmm ${name}`)
+// }
+// }
+
+
+
+// const Person1 = new Person("Anton")
+// Person1.greet()
+
+// const Person2 = new Person("Dima")
+// Person2.greet()
+
+// const brokenLinks = ["teliqon", "youtube", "facebook"];
+// const brokenLinks2 = ["bloomex", "google", "inst"];
+// const brokenLink3 = ["telegram", "1xbet", "poker"];
+
+
+
+// const fixLinksarrey = function fix(massiv){
+  
+//   return massiv.map(function(brolink){
+//     return 'https://'+ brolink + '.com'
+//   })
+
+// }
+// console.log(fixLinksarrey(brokenLinks))
+
+// function persone(name){
+// this.name = name
+// this.greet = function(){
+//   console.log(`Hello my dear ${name}`)
+  
+// }
+
+// }
+// const Person1 = new persone("Dato")
+// Person1.greet()
+
+// const colors = ['red', 'green', 'blue', 'yellow'];
+
+// for (const color of colors) {
+//     console.log(color);
+// }
+
+// const sentence = "Це бречення має кілька слів";
+// const words = sentence.split(' '); // Разделяет по чем то в данном случае по пробелам , если было бы каждое слово через запятую то по запятым а если с пустым знасением то по каждой букве 
+// console.log(words);
+
+// const fruits = ["яблуко", "банан", "полуниця"];
+// const fruitString = fruits.join(" "); // соединение в одну строку по указанному разделителю 
+// console.log(fruitString);
+
+// const numbers = [10, 20, 30, 40, 20];
+// const index = numbers.indexOf(30); // показывает номер индекс первого вхождения в данном случае 2 
+// console.log(index);
+
+// const colors = ["червоний", "зелений", "синій"];
+// const hasGreen = colors.includes("зелений"); // показывает содержит ли массив переданное значение и вернет true or false
+// console.log(hasGreen);
+
+// const stack = [1, 2];
+// stack.push(3, 4); // добавляет один или несколько жлементов в конец массива
+// console.log(stack);
+
+// const stack = [1, 2, 3, 4];
+// const poppedValue = stack.pop(); // удаляет последний жлемент массива и возвращает его значение 
+// console.log(poppedValue); // 4
+// console.log(stack);
+
+// const queue = ["A", "B", "C"];
+// const shiftedValue = queue.shift(); // удаляет первый жлемент массива и возвращает его значение 
+// console.log(shiftedValue); // "A"
+// console.log(queue);
+
+// const queue = ["B", "C"];
+// queue.unshift("A", "H"); // добаляет один или несколько элементов в начало массива 
+// console.log(queue);
+
+// const numbers = [1, 2, 3, 4, 5];
+// const slicedArray = numbers.slice(2,4); // выбирает значения от указанного индекса вклучительно до конца массива или если указанного то до него но не включая его 
+// const slicedArray2 = numbers.slice(2);
+// console.log(slicedArray)
+// console.log(slicedArray2)
+
+// const colors = ["червоний", "зелений", "синій"];
+// colors.splice(1, 0, "жовтий", "оранжевий"); // первый индекс говорит о том с какого элемента массива мы начинаем , второй какой следует удалить  и потом данные которые надо поместить это значит "Начинай изменения перед colors[1] (то есть перед "зелений")".
+// console.log(colors);
+
+// const numbers = [1, 2, 3, 4, 5];
+// numbers.splice(2,2); // Видаляємо 2 елементи починаючи з індекса 2
+// console.log(numbers);
+
+// const animals = ["кіт", "собака", "зебра", "слон"];
+// animals.splice(1, 2, "тигр", "лев"); // удаление со вставкой типо начиная с певого жлемента удали 2 после него и вствсь 
+// console.log(animals);
+
+// const array1 = [1, 2];
+// const array2 = [3, 4];
+// const concatenatedArray = array1.concat(array2); // обьединение массивов в один массив 
+// console.log(concatenatedArray);
+
+// const numbers = [1, 2, 3, 4, 5];
+// numbers.forEach((number) => { // дозволяє виконати задану функцію для кожного елементу масиву без створення нового масиву.
+//   console.log(number * 2);
+// });
+
+// const numbers = [1, 2, 3, 4, 5];
+// const evenNumbers = numbers.filter((number) => number % 2 === 0); // створює новий масив з елементами, які задовольняють певну умову.
+// console.log(evenNumbers)
+
+// const numbers = ["calgary", "vancouver", "halifax", "toronto", "ottawa"];
+
+// const burger = numbers.length-1
+// console.log(numbers[burger])
+
+// console.log(numbers.length-1)
+// // const evenNumbers = numbers.indexOf("vancouver")
+
+// const BBB = numbers.slice(1,4)
+// // numbers.splice(evenNumbers,1)
+// console.log(BBB)
+// const matrix = [
+//   ["calgary", "vancouver", "halifax"],
+//   ["dog", "cat", "catdog"],
+//   ["blue", 8, 9],
+// ];
+
+// console.log(matrix[0][2])
+// console.log(matrix[1][1])
+// console.log(matrix[2][2])
+
+// const colors = ['red', 'green', 'blue', 'yellow'];
+
+// for (const hui of colors) {
+//     console.log(hui);
+// }
+
+// const sentence = "Hello world";
+// const words = sentence.split(" ");
+// console.log(words);
+
+// const numbers = [10, 20, "ottawa", 40, 50];
+// const BBB = numbers.indexOf("ottawa");
+// const JJJ = numbers.splice(2,1, "Halifax")
+// console.log(numbers); 
+// console.log(BBB); 
+// console.log(JJJ); 
+
+// const first= ["calgary", "vancouver", "halifax"]
+// const second = ["dog", "cat", "catdog"]
+
+// const full = first.concat(second)
+// console.log(full)
+
+// const numbers = [1, 2, 3, 4, 5];
+
+
+//  const PPP = numbers.map( function BBB(hui){
+//   return hui * 2
+// })
+
+// console.log(PPP)
+
+//______________________________________________
+
+// const numbers = [2, -5, 0, 7, -3, 0, 10, -8]
+
+
+// let positiveCount = 0 
+// let negativeCount = 0 
+// let zeroCount = 0 
+
+
+// for (let i = 0; i < numbers.length; i ++){
+  
+//   if ( numbers[i] < 0){
+//     negativeCount += 1
+//   }
+//   else if ( numbers[i] > 0){
+//     positiveCount += 1
+     
+//   }
+//   else if( numbers[i] === 0){
+//     zeroCount++
+//   }
+
+// }
+
+// console.log(`Кількість позитивних чисел: ${positiveCount}`)
+// console.log(`Кількість негативних чисел: ${negativeCount}`)
+// console.log(`Кількість нульових чисел: ${zeroCount}`)
+
+// // __________________________________________________________
+
+
+// const massiv = [1, 2, 3, 4, 5]
+
+//  const mutatedNumbers = massiv.map(function BBB(num,index){
+//    return num * index
+//  })
+
+
+
+// console.log(mutatedNumbers)
+
+// //_________________________________________________________
+
+// const mass = [10, 20, 30, 40, 50]
+
+// const resultum = mass.reduce(function HHH(accum,curr){
+//   return accum + curr
+
+// })
+
+// console.log(resultum)
+
+// //_________________________________________________________
+
+// const massives = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+// const itogi = massives.filter(function LLL(chislo){
+//   return chislo % 2 === 0
+// })
+// console.log(itogi)
+
+// //_________________________________________________________
+
+// const firstArray = [10, 20, 30]
+// const secondArray = [40, 50, 60]
+
+// const resultat = firstArray.concat(secondArray)
+
+// console.log(resultat)
+
+//_________________________________________________________
+
+// const numbersList = [1,10,14,2,4,5,43,34]
+
+// const copiedArray = numbersList.slice()
+
+// const SS = copiedArray.sort(function UUU(a,b){
+//   return a - b
+
+// })
+// console.log(SS)
+
+
+
+
