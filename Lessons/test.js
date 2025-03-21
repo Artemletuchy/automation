@@ -787,6 +787,120 @@
 // })
 // console.log(SS)
 
+// const person = {
+//   name: {
+//     "first name": "John",
+//     last: "Doe"
+//   },
+//   age: 30
+// };
 
 
+// const person = {
+//   firstName: "John",
+//   lastName: "Doe",
+//   age: 30,
+// };
 
+
+// person.country = "USA";
+// console.log(person); 
+
+// delete person.age
+// console.log(person); 
+
+// const person = {
+//   name: "John",
+//   greet: function() {
+//     console.log(`Hello, my name is ${this.name}`);
+//   },
+//   gender : null
+// };
+
+// person.greet();
+
+// const DF = person?.name
+// console.log(DF)
+
+// const Def = person.gender ?? "Hui"
+// console.log(Def)
+
+// const person = {
+//   name: 'John',
+//   age: 30,
+//   city: 'New York'
+// };
+
+// for (let hui in person) {
+//   console.log(hui + ': ' + person[hui]);
+// }
+// const array = Object.entries(person)
+// console.log(array);
+
+// const people = [
+//   { name: "John", age: 30 },
+//   { name: "Jane", age: 25 },
+//   { name: "Mike", age: 40 }
+// ];
+
+// for (const person of people) {
+//   console.log(person)
+//   console.log(`${person.name} is ${person.age} years old`);
+  
+
+  
+// }
+
+// const person = {
+//   name: "John",
+//   age: 30,
+//   gender: "male",
+//   greet : function(a,b){
+//     return a + b 
+//   },
+//   piski: 55
+// };
+
+// const {name,age,gender,greet,piski = 14} = person
+
+// console.log(name)
+// console.log(greet(1,2))
+// console.log(piski)
+
+// const people = [
+//   { name: "John", age: 30 },
+//   { name: "Jane", age: 25 }
+// ];
+
+// for (const { name, age } of people) {
+//   console.log(`${name} is ${age} years old`);
+// }
+
+
+// function sum(...numbers) {
+//   return numbers.reduce((total, num) => total + num, 0);
+// }
+
+// console.log(sum(1, 2, 3, 4)); // 10
+
+
+// const originalObject = { name: 'John', age: 30 };
+// const copiedObject = Object.assign({}, originalObject);
+
+// console.log(copiedObject)
+
+// const myMap = new Map();
+// myMap.set("name", 'debil')
+// myMap.set("age", 30)
+
+
+// console.log (myMap)
+// console.log(myMap.get("name"))
+// console.log(myMap.get("age"))
+
+// console.log(myMap.delete("age"))
+// console.log (myMap)
+
+// console.log(myMap.get("age"))
+// myMap.clear();
+// console.log (myMap)
