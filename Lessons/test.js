@@ -904,3 +904,175 @@
 // console.log(myMap.get("age"))
 // myMap.clear();
 // console.log (myMap)
+
+// function filterNumbers(arr, threshold) {
+//  console.log(arr)
+//  console.log(threshold)
+//  return arr.filter(function NNN(num){
+//   return num > threshold
+//  })
+// }
+
+// console.log(filterNumbers([1, 5, 10, 20], 5)); // Ожидаемый результат: [10, 20]
+
+
+// const users = [
+//   { name: "Alice", age: 17 },
+//   { name: "Bob", age: 25 },
+//   { name: "Charlie", age: 30 },
+//   { name: "David", age: 15 }
+// ];
+
+// function getAdultUsers(users) {
+//   return users.filter(function(user) {
+//     return user.age > 18;
+//   })
+//   .map(function(user) {
+//     return user.name;
+//   });
+// }
+
+// console.log(getAdultUsers(users)); // Ожидаемый результат: ["Bob", "Charlie"]
+
+
+
+// function filterLongWords(words, maxLength) {
+//   return words.filter(function(stingus){
+//   return stingus.length <= maxLength
+//   })
+// }
+
+// console.log(filterLongWords(["apple", "banana", "kiwi", "grape"], 5)); 
+// // Ожидаемый результат: ["apple", "kiwi", "grape"]
+
+// const users = [
+//   { name: "Alice", age: 25 },
+//   { name: "Bob", age: 30 }
+// ];
+
+// function addCountry(users, country) {
+//  return users.map(function(object){
+//    object.country = country
+//    return object
+//  })
+// }
+
+// console.log(addCountry(users, "USA"));
+// Ожидаемый результат: 
+// [
+//   { name: "Alice", age: 25, country: "USA" },
+//   { name: "Bob", age: 30, country: "USA" }
+// ]
+
+// const cart = [
+//   { name: "Laptop", price: 1000 },
+//   { name: "Phone", price: 500 },
+//   { name: "Tablet", price: 300 }
+// ];
+
+// function getTotalPrice(cart) {
+//   console.log(cart)
+  
+//   return cart.reduce(function(sum, object) {
+//     return sum + object.price; // Накопление суммы
+//   }, 0); // Начальное значение суммы - 0
+   
+//   }
+
+
+
+// console.log(getTotalPrice(cart)); 
+// // Ожидаемый результат: 1800
+
+// class Person {
+//   constructor(name, age) {
+//     this.name = name;
+//     this.age = age;
+//   }
+
+//   greet() {
+//     console.log(`Hello, my name is ${this.name} and I'm ${this.age} years old.`);
+//   }
+// }
+// const person1 = new Person("aren", 20)
+// console.log(person1)
+// person1.greet()
+
+// class Person {
+//   constructor(name, age) {
+//     name + age
+//   }
+// }
+
+// Person("ara", 30)
+
+// class MathHelper {
+//   static square(number) {
+//     return number * number;
+//   }
+//    function (numberT) {
+//     return numberT + numberT;
+//   }
+// }
+// const JJJ = new 
+
+// console.log(MathHelper.square(5)); 
+// console.log(MathHelper(10)); 
+
+
+
+
+// class MathHelperr {
+//   constructor(number) {
+//      this.number = number
+//   }
+//   squaree() {
+//     return this.number * this.number;
+//   }
+// }
+
+// const BBB = new MathHelperr(6)
+// console.log(BBB.squaree())
+
+
+// class Shape {
+// 	constructor(color) {
+// 		this.color = color;
+// 	}
+
+// 	draw() {
+// 		console.log(`Drawing a shape with ${this.color} color.`);
+// 	}
+// }
+
+// class Circle extends Shape {
+// 	constructor(color, radius) {
+// 		super(color);
+// 		this.radius = radius;
+// 	}
+
+// 	printInfo() {
+// 		console.log(`INFO: Radius : ${this.radius}, color: ${this.color}`);
+// 	}
+
+// 	draw() {
+// 		console.log(`Drawing a circle with ${this.color} color and radius ${this.radius}.`);
+// 	}
+// }
+
+// const circle = new Circle('blue', 5);
+// circle.draw(); // Drawing a circle with blue color and radius 5.
+// circle.printInfo(); // INFO: Radius : 5, color: blue
+
+// const person = {
+//   name: 'John',
+//   age: 42
+// };
+
+// console.log(person.hasOwnProperty("name")); // true
+// console.log(person.hasOwnProperty('toString')); // false
+
+
+
+
+
