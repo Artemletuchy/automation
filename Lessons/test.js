@@ -1075,4 +1075,51 @@
 
 
 
+// setTimeout(function(phrase, name, age) {
+//   console.log(`[${Date.now()}] ${phrase} ${name} ${age}!`);
+// }, 3000, 'Hello', 'John', 15);
+
+// function saySmth(phrase, name, age) {
+//   console.log(`[${Date.now()}] ${phrase} ${name} ${age}!`);
+// }
+
+// setTimeout(saySmth, 3000, 'Hello', 'John', 15);
+
+// setTimeout((phrase, name, age) => {
+//   console.log(`[${Date.now()}] ${phrase} ${name} ${age}!`);
+// }, 3000, 'Hello', 'John', 15);
+
+// function saySmth(phrase, name) {
+//   console.log(`${phrase} ${name}!`);
+// }
+
+// // Запускаємо функцію saySmth кожну секунду (кожні 1000 мілісекунд)
+// setInterval(saySmth, 1000, 'Hello', 'John');
+
+// let timerId = setTimeout(function tick() {
+//   console.log("hello")
+//   timerId = setTimeout(tick, 2000); // (*)
+// }, 2000);
+
+
+
+// async function asyncFunction(a, b) {
+//   return a / b;
+// }
+
+// asyncFunction(2, "test")
+//   .then(result => {
+//     if (Number.isNaN(result)) {
+//       throw new Error("Result is NaN");
+//     }
+//     console.log(result);
+//   })
+//   .catch(e => { 
+//     console.log("test"); 
+//     console.error(e);
+//   });
+
+
+
+
 
