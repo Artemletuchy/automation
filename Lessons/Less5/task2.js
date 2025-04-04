@@ -1,31 +1,29 @@
 let averageGrade = 55;
 
-switch(true){
+switch (true) {
+	case averageGrade < 60:
+		console.log('Unsatisfactorily');
+		break;
 
+	case averageGrade >= 60 && averageGrade <= 70:
+		console.log('Satisfactorily');
+		break;
 
-  case averageGrade < 60:
-    console.log("Unsatisfactorily")
-  break
+	case averageGrade >= 71 && averageGrade <= 80:
+		console.log('Done');
 
-  case averageGrade >= 60 && averageGrade <= 70:
-    console.log("Satisfactorily")
-  break
+		break;
 
-  case averageGrade >= 71 && averageGrade <= 80 :
-    console.log("Done")
+	case averageGrade >= 81 && averageGrade <= 90:
+		console.log('Very well');
 
-  break
+		break;
 
-  case averageGrade >= 81 && averageGrade <= 90 :
-    console.log("Very well")
-  
-  break
+	case averageGrade >= 91 && averageGrade <= 100:
+		console.log('Perfect');
 
-  case averageGrade >= 91 && averageGrade <= 100 :
-    console.log("Perfect")
-  
-  break
+		break;
 
-  default : console.log("Anyone")
-
+	default:
+		console.log('Anyone');
 }

@@ -16,14 +16,13 @@
 // console.log(typeof symbol, symbol);
 // console.log(typeof Bint, Bint);
 
-
 // let obj = { name:  "test"} //обект
-// let obр = ['Test'] // массив 
+// let obр = ['Test'] // массив
 
 // let age = 17;
 
 // function canDrive(age){
-  
+
 //   if (age >= 18){
 //     return true;
 //   } else {
@@ -48,7 +47,7 @@
 // let N = 6
 
 // function isEven(number){
-//   if(typeof number !== "number"){                            //"number" в ковычках потому что typeof всегда возвращает строку а не тип данных 
+//   if(typeof number !== "number"){                            //"number" в ковычках потому что typeof всегда возвращает строку а не тип данных
 //     return "Error it is not number"
 //   }
 
@@ -67,13 +66,12 @@
 
 // console.log('Hello' === 'Hello' ? 1 : 0)
 
-// console.log("age" === `${radius}` ? "Yes u best": "No it is not true") // он сравнивает и выдает да или нет неважно что там будет написано 
+// console.log("age" === `${radius}` ? "Yes u best": "No it is not true") // он сравнивает и выдает да или нет неважно что там будет написано
 
 // let firstName = null;
 // let lastName = 'Guru';
 
 // function makeFullName(firstName, lastName){
-  
 
 //   if(firstName === null || firstName ===  undefined){
 
@@ -91,13 +89,10 @@
 
 // let firstName = null;
 
-
 // function makeFullName(firstName){
-  
 
 //   return firstName = (firstName === null || firstName ===  undefined) ? "Un" : firstName
 
- 
 // }
 // console.log(makeFullName(firstName))
 
@@ -113,9 +108,7 @@
 //  console.log("Nu ne povezlo")
 // }
 
-
 // let fufan = 1;
-
 
 // if (fufan === 1 || fufan === 2 || fufan === 3){
 //   console.log("bolt")
@@ -130,18 +123,15 @@
 //   console.log("BOLTARA")
 // }
 
-
 // let f = undefined // если переменная или данные равны null or undefind тогда ?? сделают по дефолту tort
 
 // let h = f ?? "tort"
 
 // console.log(h)
 
-
 // let Userid = 30;
 
 // let type;
- 
 
 // switch (Userid){
 
@@ -158,18 +148,16 @@
 //   case  3:{
 //     console.log(type = "true")
 //   }
-  
+
 //     break;
 
 //   default:
 // 		type = 'Unknown';
 //     console.log(type)
-  
+
 // }
 
 //___________________________________________________
-
-
 
 // function divide (a ,b){
 //   if (b === 0 ){
@@ -188,11 +176,9 @@
 //   console.log('This will always run') // этот блок всегда выполняется и нужен для того что бы даже если будет ошибка то выполнить действие которое нам важно выполнить - например закрытие коннекшена с базой данных
 // }
 
-
 // _____________________________________________
 
-
-// function summALL(){ //  - массивовидный обьект 
+// function summALL(){ //  - массивовидный обьект
 
 //   let sum = 5;
 //   for (let i = 0; i < arguments.length; i++){
@@ -203,8 +189,6 @@
 
 // console.log(summALL())
 // console.log(summALL(1,2,3,4,5))
-
-
 
 // function summALL(...args){ // ...args - массив
 
@@ -221,7 +205,7 @@
 
 // __________________________________________________
 
-// function summALL(a,b,...args){ 
+// function summALL(a,b,...args){
 
 //   console.log(a);
 //   console.log(b);
@@ -233,27 +217,22 @@
 //   return sum;
 // }
 
-
 // console.log(summALL("a","b",3,4,5," hui",true))
-
-
 
 //  const suuMM = (a , b) => (a/b) // стрелочная функция
 
 //  console.log(suuMM(4,2))
 
-
-
 //  const summ2 = function (a,b){ // другой вид создания функции
 //   return a/b
 //  }
- 
+
 // console.log(summ2(6,2))
 
 // function reverseString(str) {
 //   return str = str.split("").reverse().join("");
 //   }
-// console.log(reverseString('Artem'))  
+// console.log(reverseString('Artem'))
 
 // function reverseStr(str) {
 //   let newString = "";
@@ -278,7 +257,6 @@
 // console.log(isEven(6))
 // console.log(isEven(7))
 
-
 // function checkAge(age){
 //   return age >= 18 ? "Доступ разрешен":'Доступ запрещен'
 // }
@@ -301,33 +279,27 @@
 // }
 // console.log(hui(4,10000))
 
-
 // let hui2 = function(a,b){
 //   return a/b
 // }
 // console.log(hui2(4,10000))
 
-
 // let hui3 = (a,b) => a+b
 
 // console.log(hui3(4,10000))
-
 
 // function checkOrder(available, ordered){
 //   switch(true){
 //       case available < ordered:
 //          return `Your order is too large, we don’t have enough goods. We have only ${available}`
-          
-      
+
 //       case ordered  === 0:
 //           return  'Your order is empty'
-        
-         
-      
+
 //       default: return 'Your order is accepted'
 
 //   }
-  
+
 // }
 
 // console.log(checkOrder(1,10))
@@ -336,10 +308,8 @@
 
 // const Tapok = originalFunc
 
-
 // console.log(Tapok.name)
 // console.log(Tapok.toString())
-
 
 // const isOdd = (n) => {
 //   return n % 2 !== 0;
@@ -351,14 +321,14 @@
 // }
 
 // // Pass in isEven as the callback function
-// printMsg(isOdd, 4); 
+// printMsg(isOdd, 4);
 
 // function Hui(first_name, sirpodzapunii, funtic, callback){ // Call back
 //   console.log(`Hello ${first_name}`)
 //   sirpodzapunii()
 //   funtic()
 //   callback()
-  
+
 // }
 
 // function pizda(){
@@ -373,24 +343,19 @@
 //   console.log('Jiirnaya')
 // }
 
-
 // Hui("Mordjo", pizda,pizda2,pizda3 )
 
 // const isOdd = (n) => {
 //   return n % 2 !== 0;
 // }
 
-
-
 // let printMsg = (callback, num) => {
 //   const isNumOdd = callback(num);
 //   console.log(`The number ${num} is an odd number: ${isNumOdd}.`)
 // }
 
-
-
 // // Pass in isEven as the callback function
-// printMsg(isOdd, 4); 
+// printMsg(isOdd, 4);
 
 // const numbers = [1, 2, 3, 4, 5];
 
@@ -415,14 +380,10 @@
 //   return result; // Возвращаем новый массив
 // }
 
-
 // // Функция-коллбэк для добавления "!" к каждому имени
 // function addExclamation(name) {
 //   return name + "!";
 // }
-
-
-
 
 // // Передаём массив и коллбэк-функцию
 // const excitedNames = processArray(names, addExclamation);
@@ -432,14 +393,12 @@
 // function handleNum(num, callback, callback2){
 
 //    return num %2 === 0 ? callback():callback2()
-   
-// }
 
+// }
 
 // function handleEven(){
 // console.log("number is even")
 // }
-
 
 // function handleOdd(){
 //   console.log("number is odd")
@@ -449,7 +408,7 @@
 
 // function Test(num){
 //  return num + 6
- 
+
 // }
 
 // let Bolt = Test
@@ -459,8 +418,7 @@
 
 // function Y(callback){
 
-  
-//      setImmediate(()=>{ // асинхронное выполнение кода 
+//      setImmediate(()=>{ // асинхронное выполнение кода
 //      callback("Dato")
 //   })
 
@@ -489,7 +447,6 @@
 // console.log(tumbaa)
 
 // ⏩ Если используешь {}, всегда пиши return! 🚀 тут он выполняется автоматически const tumba = Numbers.map(num => num * num);
-
 
 //  const Persone = {
 //   first_name : 'Alex',
@@ -520,11 +477,10 @@
 //   console.log(this.last_name)
 //   console.log(this.age)
 //   return
-  
 
 //  }
 
-// whatData.call(Persone1)  //call() вызывает функцию и подставляет this из переданного объекта. 
+// whatData.call(Persone1)  //call() вызывает функцию и подставляет this из переданного объекта.
 
 // whatData.apply(Persone2) //🔹 .apply() работает так же, но принимает массив аргументов.
 
@@ -545,8 +501,6 @@
 // }
 // }
 
-
-
 // const Person1 = new Person("Anton")
 // Person1.greet()
 
@@ -557,10 +511,8 @@
 // const brokenLinks2 = ["bloomex", "google", "inst"];
 // const brokenLink3 = ["telegram", "1xbet", "poker"];
 
-
-
 // const fixLinksarrey = function fix(massiv){
-  
+
 //   return massiv.map(function(brolink){
 //     return 'https://'+ brolink + '.com'
 //   })
@@ -572,7 +524,7 @@
 // this.name = name
 // this.greet = function(){
 //   console.log(`Hello my dear ${name}`)
-  
+
 // }
 
 // }
@@ -586,15 +538,15 @@
 // }
 
 // const sentence = "Це бречення має кілька слів";
-// const words = sentence.split(' '); // Разделяет по чем то в данном случае по пробелам , если было бы каждое слово через запятую то по запятым а если с пустым знасением то по каждой букве 
+// const words = sentence.split(' '); // Разделяет по чем то в данном случае по пробелам , если было бы каждое слово через запятую то по запятым а если с пустым знасением то по каждой букве
 // console.log(words);
 
 // const fruits = ["яблуко", "банан", "полуниця"];
-// const fruitString = fruits.join(" "); // соединение в одну строку по указанному разделителю 
+// const fruitString = fruits.join(" "); // соединение в одну строку по указанному разделителю
 // console.log(fruitString);
 
 // const numbers = [10, 20, 30, 40, 20];
-// const index = numbers.indexOf(30); // показывает номер индекс первого вхождения в данном случае 2 
+// const index = numbers.indexOf(30); // показывает номер индекс первого вхождения в данном случае 2
 // console.log(index);
 
 // const colors = ["червоний", "зелений", "синій"];
@@ -606,21 +558,21 @@
 // console.log(stack);
 
 // const stack = [1, 2, 3, 4];
-// const poppedValue = stack.pop(); // удаляет последний жлемент массива и возвращает его значение 
+// const poppedValue = stack.pop(); // удаляет последний жлемент массива и возвращает его значение
 // console.log(poppedValue); // 4
 // console.log(stack);
 
 // const queue = ["A", "B", "C"];
-// const shiftedValue = queue.shift(); // удаляет первый жлемент массива и возвращает его значение 
+// const shiftedValue = queue.shift(); // удаляет первый жлемент массива и возвращает его значение
 // console.log(shiftedValue); // "A"
 // console.log(queue);
 
 // const queue = ["B", "C"];
-// queue.unshift("A", "H"); // добаляет один или несколько элементов в начало массива 
+// queue.unshift("A", "H"); // добаляет один или несколько элементов в начало массива
 // console.log(queue);
 
 // const numbers = [1, 2, 3, 4, 5];
-// const slicedArray = numbers.slice(2,4); // выбирает значения от указанного индекса вклучительно до конца массива или если указанного то до него но не включая его 
+// const slicedArray = numbers.slice(2,4); // выбирает значения от указанного индекса вклучительно до конца массива или если указанного то до него но не включая его
 // const slicedArray2 = numbers.slice(2);
 // console.log(slicedArray)
 // console.log(slicedArray2)
@@ -634,12 +586,12 @@
 // console.log(numbers);
 
 // const animals = ["кіт", "собака", "зебра", "слон"];
-// animals.splice(1, 2, "тигр", "лев"); // удаление со вставкой типо начиная с певого жлемента удали 2 после него и вствсь 
+// animals.splice(1, 2, "тигр", "лев"); // удаление со вставкой типо начиная с певого жлемента удали 2 после него и вствсь
 // console.log(animals);
 
 // const array1 = [1, 2];
 // const array2 = [3, 4];
-// const concatenatedArray = array1.concat(array2); // обьединение массивов в один массив 
+// const concatenatedArray = array1.concat(array2); // обьединение массивов в один массив
 // console.log(concatenatedArray);
 
 // const numbers = [1, 2, 3, 4, 5];
@@ -685,9 +637,9 @@
 // const numbers = [10, 20, "ottawa", 40, 50];
 // const BBB = numbers.indexOf("ottawa");
 // const JJJ = numbers.splice(2,1, "Halifax")
-// console.log(numbers); 
-// console.log(BBB); 
-// console.log(JJJ); 
+// console.log(numbers);
+// console.log(BBB);
+// console.log(JJJ);
 
 // const first= ["calgary", "vancouver", "halifax"]
 // const second = ["dog", "cat", "catdog"]
@@ -696,7 +648,6 @@
 // console.log(full)
 
 // const numbers = [1, 2, 3, 4, 5];
-
 
 //  const PPP = numbers.map( function BBB(hui){
 //   return hui * 2
@@ -708,20 +659,18 @@
 
 // const numbers = [2, -5, 0, 7, -3, 0, 10, -8]
 
-
-// let positiveCount = 0 
-// let negativeCount = 0 
-// let zeroCount = 0 
-
+// let positiveCount = 0
+// let negativeCount = 0
+// let zeroCount = 0
 
 // for (let i = 0; i < numbers.length; i ++){
-  
+
 //   if ( numbers[i] < 0){
 //     negativeCount += 1
 //   }
 //   else if ( numbers[i] > 0){
 //     positiveCount += 1
-     
+
 //   }
 //   else if( numbers[i] === 0){
 //     zeroCount++
@@ -735,14 +684,11 @@
 
 // // __________________________________________________________
 
-
 // const massiv = [1, 2, 3, 4, 5]
 
 //  const mutatedNumbers = massiv.map(function BBB(num,index){
 //    return num * index
 //  })
-
-
 
 // console.log(mutatedNumbers)
 
@@ -795,19 +741,17 @@
 //   age: 30
 // };
 
-
 // const person = {
 //   firstName: "John",
 //   lastName: "Doe",
 //   age: 30,
 // };
 
-
 // person.country = "USA";
-// console.log(person); 
+// console.log(person);
 
 // delete person.age
-// console.log(person); 
+// console.log(person);
 
 // const person = {
 //   name: "John",
@@ -846,9 +790,7 @@
 // for (const person of people) {
 //   console.log(person)
 //   console.log(`${person.name} is ${person.age} years old`);
-  
 
-  
 // }
 
 // const person = {
@@ -856,7 +798,7 @@
 //   age: 30,
 //   gender: "male",
 //   greet : function(a,b){
-//     return a + b 
+//     return a + b
 //   },
 //   piski: 55
 // };
@@ -876,13 +818,11 @@
 //   console.log(`${name} is ${age} years old`);
 // }
 
-
 // function sum(...numbers) {
 //   return numbers.reduce((total, num) => total + num, 0);
 // }
 
 // console.log(sum(1, 2, 3, 4)); // 10
-
 
 // const originalObject = { name: 'John', age: 30 };
 // const copiedObject = Object.assign({}, originalObject);
@@ -892,7 +832,6 @@
 // const myMap = new Map();
 // myMap.set("name", 'debil')
 // myMap.set("age", 30)
-
 
 // console.log (myMap)
 // console.log(myMap.get("name"))
@@ -915,7 +854,6 @@
 
 // console.log(filterNumbers([1, 5, 10, 20], 5)); // Ожидаемый результат: [10, 20]
 
-
 // const users = [
 //   { name: "Alice", age: 17 },
 //   { name: "Bob", age: 25 },
@@ -934,15 +872,13 @@
 
 // console.log(getAdultUsers(users)); // Ожидаемый результат: ["Bob", "Charlie"]
 
-
-
 // function filterLongWords(words, maxLength) {
 //   return words.filter(function(stingus){
 //   return stingus.length <= maxLength
 //   })
 // }
 
-// console.log(filterLongWords(["apple", "banana", "kiwi", "grape"], 5)); 
+// console.log(filterLongWords(["apple", "banana", "kiwi", "grape"], 5));
 // // Ожидаемый результат: ["apple", "kiwi", "grape"]
 
 // const users = [
@@ -958,7 +894,7 @@
 // }
 
 // console.log(addCountry(users, "USA"));
-// Ожидаемый результат: 
+// Ожидаемый результат:
 // [
 //   { name: "Alice", age: 25, country: "USA" },
 //   { name: "Bob", age: 30, country: "USA" }
@@ -972,16 +908,14 @@
 
 // function getTotalPrice(cart) {
 //   console.log(cart)
-  
+
 //   return cart.reduce(function(sum, object) {
 //     return sum + object.price; // Накопление суммы
 //   }, 0); // Начальное значение суммы - 0
-   
+
 //   }
 
-
-
-// console.log(getTotalPrice(cart)); 
+// console.log(getTotalPrice(cart));
 // // Ожидаемый результат: 1800
 
 // class Person {
@@ -1014,13 +948,10 @@
 //     return numberT + numberT;
 //   }
 // }
-// const JJJ = new 
+// const JJJ = new
 
-// console.log(MathHelper.square(5)); 
-// console.log(MathHelper(10)); 
-
-
-
+// console.log(MathHelper.square(5));
+// console.log(MathHelper(10));
 
 // class MathHelperr {
 //   constructor(number) {
@@ -1033,7 +964,6 @@
 
 // const BBB = new MathHelperr(6)
 // console.log(BBB.squaree())
-
 
 // class Shape {
 // 	constructor(color) {
@@ -1072,9 +1002,6 @@
 // console.log(person.hasOwnProperty("name")); // true
 // console.log(person.hasOwnProperty('toString')); // false
 
-
-
-
 // setTimeout(function(phrase, name, age) {
 //   console.log(`[${Date.now()}] ${phrase} ${name} ${age}!`);
 // }, 3000, 'Hello', 'John', 15);
@@ -1101,8 +1028,6 @@
 //   timerId = setTimeout(tick, 2000); // (*)
 // }, 2000);
 
-
-
 // async function asyncFunction(a, b) {
 //   return a / b;
 // }
@@ -1114,12 +1039,7 @@
 //     }
 //     console.log(result);
 //   })
-//   .catch(e => { 
-//     console.log("test"); 
+//   .catch(e => {
+//     console.log("test");
 //     console.error(e);
 //   });
-
-
-
-
-
